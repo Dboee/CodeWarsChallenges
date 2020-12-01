@@ -1,4 +1,3 @@
-//INPUTS A WORD
 function duplicateEncode(word) {
 
   // String to lowercase
@@ -29,8 +28,8 @@ function duplicateEncode(word) {
     // If character appears > 2 times, push ) to newstring
     if (counter >= 2) {
       newString += ")";
-    } 
-    
+    }
+
     // If character appears < 2 times, push ( to newstring
     else {
       newString += "(";
